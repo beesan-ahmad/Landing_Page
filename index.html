@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landing Page</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- HTML Follows BEM naming conventions -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list"></ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>Fitness Club</h1>
+    </header>
+    <!-- Each Section has an ID and a data attribute that will populate the li node -->
+    <section id="section1" data-nav="Home" class="your-active-class">
+      <div class="landing__container">
+        <h2>Home</h2>
+        <h3>
+          Healthy life is here,
+          Start Exploring now.
+        </h3>
+        <p>It's a new day, a new opportunity to sculpt the best version of yourself.
+          Embrace the energy, feel the burn and conquer your fitness goals with unwavering
+          determination.</p>
+      </div>
+    </section>
+    <section id="section2" data-nav="About">
+      <div class="landing__container">
+        <h2>About Us</h2>
+        <p>Some may call it a tagline, but for us, it’s a way of life. It’s our
+          Monday-thru-every-day mantra. An unfiltered philosophy that drives us to create a
+          community and a gym for all. No judgments means room for everyone, regardless of
+          shape, size, age, race, gender or fitness level. No matter your workout of choice,
+          we want you to feel good while reaching your goals. Join the fun.</p>
+      </div>
+    </section>
+    <section id="section3" data-nav="Schedule">
+      <div class="landing__container">
+        <h2>Weekly Schedule</h2>
+        <p>
+        <h3>Our Schedules</h3>
+        <strong>Monday:</strong> Running at 6:00 AM<br>
+        <strong>Tuesday:</strong> Swimming at 7:00 AM<br>
+        <strong>Wednesday:</strong> Cycling at 6:30 AM<br>
+        <strong>Thursday:</strong> Yoga at 6:00 AM<br>
+        <strong>Friday:</strong> Weight Training at 8:00 AM
+        </p>
+        <h3>Last 5 Exercises</h3>
+        <p>
+          <strong>Running:</strong> 30 min<br>
+          <strong>Swimming:</strong> 45 min<br>
+          <strong>Cycling:</strong> 60 min<br>
+          <strong>Yoga:</strong> 40 min<br>
+          <strong>Weight Training:</strong> 50 min
+        </p>
+      </div>
+    </section>
+    <section id="section4" data-nav="Contact">
+      <div class="landing__container">
+        <h2>Contact Us</h2>
+        <p>Through our social media channels, you can get in touch with us.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="page__footer">
+    <p>&beesan</p>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
