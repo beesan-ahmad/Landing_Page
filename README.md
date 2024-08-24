@@ -16,7 +16,7 @@ To view the landing page, right-click on the index.html file and select "Open wi
 
 # 4. Installation
 To install this project repository, use the following command:
-git clone https://github.com/beesan-ahmad/cd0428-landing-page.git
+git clone https://github.com/beesan-ahmad/Landing_Page.git
 
 # 5. Usage 
 This fitness club landing page includes a navigation bar with four sections: Home, About, Schedules, and Contact. Users can navigate through these sections smoothly:
