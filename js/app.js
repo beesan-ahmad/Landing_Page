@@ -71,15 +71,5 @@ function init() {
 window.addEventListener('scroll', setActiveSection);
 navbarList.addEventListener('click', scrollToSection);
 
-// Add scroll timer for navbar hiding
-let scrollTimer;
-window.addEventListener('scroll', () => {
-    document.querySelector('.page__header').classList.add('scrolled');
-    clearTimeout(scrollTimer);
-    scrollTimer = setTimeout(() => {
-        document.querySelector('.page__header').classList.remove('scrolled');
-    }, 1000);
-});
-
 // Initialize the app
 init();
